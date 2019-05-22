@@ -1,0 +1,145 @@
+html,
+body,
+.ui-content {
+  background-color: #282120;
+  color: #F8EFE4;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  color: #F8EFE4;
+}
+
+.markdown-body h1,
+.markdown-body h2 {
+  border-bottom-color: #F8EFE4;
+}
+
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+  color: #F8EFE4;
+}
+
+.markdown-body img {
+  background-color: transparent;
+}
+
+.expand-toggle:hover,
+.expand-toggle:focus,
+.back-to-top:hover,
+.back-to-top:focus,
+.go-to-bottom:hover,
+.go-to-bottom:focus {
+  color: #F8EFE4;
+}
+
+a.ui-notification-label {
+  background-color: #181110;
+  border: 0;
+}
+
+a.ui-notification-label:hover {
+  color: #F8EFE4;
+  background-color: #383130;
+}
+
+a.ui-notification-label span {
+  color: #F8EFE488;
+}
+
+ul.dropdown-menu {
+  background-color: #282120;
+}
+
+ul.dropdown-menu li a {
+  color: #F8EFE4;
+}
+
+ul.dropdown-menu li a:hover {
+  color: #F8EFE4;
+  background-color: #181110;
+}
+
+.ui-toc-dropdown {
+  background-color: #383130;
+}
+
+.ui-toc-label.btn {
+  background-color: #181110;
+  color: #F8EFE4;
+}
+
+.ui-toc-label.btn:hover {
+  background-color: #383130;
+}
+
+.ui-toc-dropdown .nav>li>a:focus,
+.ui-toc-dropdown .nav>li>a:hover {
+  color: #FAD02C;
+  border-left: 1px solid #FAD02C;
+}
+
+.ui-toc-dropdown .nav>.active:focus>a,
+.ui-toc-dropdown .nav>.active:hover>a,
+.ui-toc-dropdown .nav>.active>a {
+  color: #FAD02C;
+  border-left: 2px solid #FAD02C;
+}
+
+div.toc-menu a:hover {
+  background-color: #181110;
+}
+
+.markdown-body blockquote {
+  color: #E6C2BF;
+}
+
+.markdown-body table tr {
+  background-color: #282120;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #181110;
+}
+
+.markdown-body code,
+.markdown-body tt {
+  color: #F8EFE4;
+  background-color: #181110;
+  /* background-color: rgba(230, 230, 230, 0.36); */
+}
+
+a,
+.open-files-container li.selected a {
+  color: #FAD02C;
+  padding: 0 0.25em;
+  font-weight: 600;
+}
+
+a:hover {
+  color: #282120;
+  background-color: #FAD02C;
+  text-decoration: none;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+  background-color: #181110;
+  border-radius: 8px;
+}
+
+span.token.operator {
+  background-color: transparent;
+}
+
+span.token[class~="token"] {
+  color: #F8EFE4
+}
